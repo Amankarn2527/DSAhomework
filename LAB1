@@ -1,1 +1,8 @@
+#include <stdio.h>
+int main(){
+    int x=25;
+    int *p=&x;
+    printf("The value of x:%d the address of x:%d \n",x,p);
+    printf("The value of p:%d the value *p:%d",p,*p);
 
+}
